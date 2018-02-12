@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class DemoApplication {
 	
-	@RequestMapping("/")
-    String home() {
+	@RequestMapping("test")
+    public String home() {
         return "Hello World!";
     }
 	public static void main(String[] args) {
